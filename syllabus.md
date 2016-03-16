@@ -36,6 +36,9 @@ How to think like a computer scientist
 by Allen B Downey   
 http://www.greenteapress.com/thinkpython/
 
+You can also get the book, and code examples from Allen's repo here:  
+https://github.com/AllenDowney/ThinkPython
+
 
 ## Recommended pre-requisites
 * At least some exposure to coding / scripting. This will be an beginner / introductory course but any cary over   
