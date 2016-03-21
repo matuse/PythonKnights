@@ -16,7 +16,7 @@ otherwise simply use "novice" as the password
 ## Schedule
 We'll meet weekly, 7 - 9PM ish, basically, however long it takes us to cover the material and not pass out 
 
-Week 1 -    3/14    - Ch 1 
+Week 1 -    3/14    - Ch 1  
 Week 2 -    3/21    - Ch 2 and 3  
 Week 3 -    3/28    - Ch 4 and 5  
 Week 4 -    4/4     - Ch 6  
