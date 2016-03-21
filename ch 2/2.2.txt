@@ -1,0 +1,35 @@
+>>> width = 17
+>>> height = 12.0
+>>> delimiter = "."
+
+
+1) 8 - integer
+
+>>> width/2
+8
+>>> type(width/2)
+
+2) 8.5 - float
+
+>>> width/2.0
+8.5
+>>> type(width/2.0)
+<type 'float'>
+
+
+3) 4.0 - float
+
+>>> height/3
+4.0
+
+4) 11 - integer
+
+>>> 1 + 2 * 5
+11
+
+5) '.....' - string
+
+>>> delimiter * 5
+'.....'
+>>> type(delimiter * 5)
+<type 'str'>
