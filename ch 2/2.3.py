@@ -3,8 +3,8 @@ import math
 # 1 -
 
 r = 5
-# pi = 3.14
-pi = math.pi
+pi = 3.14
+# pi = math.pi
 volume = (4.0/3.0) * pi * r ** 3
 
 print (volume)
@@ -31,3 +31,5 @@ bt_min = (breakfast - (bt_hour*60*60)) / 60
 bt_sec = breakfast - (bt_hour*60*60) - (bt_min*60)
 
 print (bt_hour, bt_min, bt_sec)
+print (str(bt_hour)+':'+str(bt_min)+':'+str(bt_sec))
+
