@@ -1,0 +1,13 @@
+File "4.3_Exercise_4.py", Line 39, in __main__
+    draw_circle(bob, 30)
+File "4.3_Exercise_4.py", Line 23, in draw_circle
+    t = bob
+    r = 30
+    t.delay = 0.001
+    circumference = 188.4954
+    l = 7.539816
+    draw_polygon(t, l, 25)
+File "4.3_Exercise_4.py", Line 7, in draw_polygon
+    t = bob
+    length = 7.539816
+    n = 25
