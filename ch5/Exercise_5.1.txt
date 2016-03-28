@@ -1,0 +1,10 @@
+<module>
+
+print_n     s --->  "Hello"
+            n --->  2
+
+print_n     s --->  "Hello"
+            n --->  1
+
+print_n     s --->  "Hello"
+            n --->  0
