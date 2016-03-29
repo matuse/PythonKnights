@@ -16,6 +16,7 @@ If you like this, then check out inventwithpython.com to read the book (which ha
 The Pygame documentation is pretty good, and can be found at http://www.pygame.org/docs
 
 Unfortunately there is no sound with this game.
+
 """
 
 import pygame, sys, time, random, math
