@@ -61,8 +61,8 @@ amount of Red, Blue, and Green (in order) in the color. This is known as an RGB 
 
 BUILDING_COLORS will hold a tuple of these RGB tuples and represent the different colors the buildings can be."""
 
-BUILD_EXPLOSION_SIZE = int(SCR_HEIGHT / 50)
-GOR_EXPLOSION_SIZE = 30
+BUILD_EXPLOSION_SIZE = int(SCR_HEIGHT / 10)
+GOR_EXPLOSION_SIZE = 100
 """BUILD_EXPLOSION_SIZE holds the size of an explosion when a banana hits a building, and GOR_EXPLOSION_SIZE is the size
 when it hits a gorilla."""
 
