@@ -24,12 +24,12 @@ def arc(t, r, angle):
     step_angle = float(angle) / n
     polyline(t, n, step_length, step_angle)
 
-for i in range(7):
+for i in range(16):
     arc(bob, 50, 60)
     rt(bob, 240)
     arc(bob, 50, 60)
     rt(bob, 240)
-    rt(bob, (360.0/7))
+    rt(bob, (360.0/16))
 
 
 wait_for_user()

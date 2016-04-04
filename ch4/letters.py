@@ -38,5 +38,5 @@ def draw_c(t, size):
 
 def skip(t, size):
     pu(t)
-    fd(t, size)
+    fd(t, 2 * size)
     pd(t)
