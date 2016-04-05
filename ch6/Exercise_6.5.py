@@ -9,4 +9,3 @@ def ack(m, n):
 
 print ack(3, 4)
 
-print ack(4, 3)
