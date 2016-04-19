@@ -21,8 +21,8 @@ Week 2 -    3/21    - Ch 2 and 3
 Week 3 -    3/28    - Ch 4 and 5  
 Week 4 -    4/4     - Ch 6  
 Week 5 -    4/11    - Ch 7  
-Week 6 -    4/18    - Ch 8 and 9  
-Week 7 -    4/25    - Ch 10 and 11  
+Week 6 -    4/18    - Ch 8  
+Week 7 -    4/25    - Ch 9, 10 and 11  
 Week 8 -    5/2     - Ch 12 and 13  
 Week 9 -    5/9     - Ch 14  
 Week 10 -   5/16    - Ch 15, 16, 17  
