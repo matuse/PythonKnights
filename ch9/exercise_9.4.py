@@ -10,13 +10,13 @@ while nono != '!':
     fin = open('words.txt')
     line_count = 0
     hits = 0
-    nono = raw_input('Please enter characters you wish to avoid:\nOr enter ! to quit.\n')
+    nono = raw_input('Please enter characters you wish to use:\nOr enter ! to quit.\n')
     if nono == '!':
         quit()
     for line in fin:
         word = line.strip()
         line_count += 1
-        if avoids(word, nono):
+        if uses_only(word, nono):
             hits += 1
 
     print '\n'
