@@ -8,4 +8,4 @@ def capitalize_nested(t):
     return res
 
 
-print capitalize_nested(['madhu','kiran',['mad',['max','madus']],"thamma"])
+print capitalize_nested(['madhu','KiraN',['mad',['max','madus']],"thamma"])

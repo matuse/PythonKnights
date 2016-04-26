@@ -1,7 +1,7 @@
-def uses_only(s, chars):
+def uses_all(s, chars):
     flag = True
-    for ltr in s:
-        flag = flag and chars.count(ltr) > 0
+    for ltr in chars:
+        flag = flag and s.count(ltr) > 0
     return flag
 
 
@@ -16,7 +16,7 @@ while nono != '!':
     for line in fin:
         word = line.strip()
         line_count += 1
-        if uses_only(word, nono):
+        if uses_all(word, nono):
             print word
             hits += 1
 

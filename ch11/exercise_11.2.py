@@ -6,3 +6,4 @@ def histogram(s):
 
 print histogram('balls')
 print histogram('Mississippi')
+print histogram('My mother your mother hanging up the clothes. My mother punched your mother in the nose. What color was the blood?')
