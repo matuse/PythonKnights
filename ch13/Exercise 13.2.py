@@ -36,7 +36,7 @@ def skip_gutenberg_header(fp):
     fp: open file object
     """
     for line in fp:
-        if line.startswith('*END*THE SMALL PRINT!'):
+        if line.startswith('***'):
             break
 
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     t = most_common(hist)
     print 'The most common words are:'
     for freq, word in t[0:20]:
-        print word, '\t', freq
+        print word, freq
 
     words = process_file('words.txt', skip_header=False)
 
