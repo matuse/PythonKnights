@@ -36,7 +36,7 @@ def skip_gutenberg_header(fp):
     fp: open file object
     """
     for line in fp:
-        if line.startswith('***'):
+        if line.startswith('*END*THE SMALL PRINT!'):
             break
 
 
@@ -119,7 +119,7 @@ def random_word(hist):
 
 
 if __name__ == '__main__':
-    hist = process_file('story.txt', skip_header=True)
+    hist = process_file('story2.txt', skip_header=True)
     print 'Total number of words:', total_words(hist)
     print 'Number of different words:', different_words(hist)
 
