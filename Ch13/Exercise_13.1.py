@@ -4,7 +4,7 @@ d = {}
 
 for line in fin:
     for word in line.split():
-        newword = word.strip(string.punctuation).strip(string.whitespace).lower()
+        newword = word.strip(string.punctuation).lower()
         #print newword
         key = newword
         w = d.get(key, 0)

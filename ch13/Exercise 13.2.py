@@ -10,6 +10,11 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 import string
 import random
 
+def reverse_lookup(d, v):
+    for k in d:
+        if d[k] == v:
+            return k
+    raise ValueError
 
 def process_file(filename, skip_header):
     """Makes a histogram that contains the words from a file.
@@ -53,11 +58,10 @@ def process_line(line, hist):
 
     for word in line.split():
         # remove punctuation and convert to lowercase
-        word = word.strip(string.punctuation + string.whitespace)
-        word = word.lower()
+        newword = word.strip(string.punctuation).strip(string.whitespace).lower()
 
         # update the histogram
-        hist[word] = hist.get(word, 0) + 1
+        hist[newword] = hist.get(newword, 0) + 1
 
 
 def most_common(hist):
@@ -139,3 +143,4 @@ if __name__ == '__main__':
     for i in range(100):
         print random_word(hist),
 
+    #print ord(reverse_lookup(hist, 17))
